@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C735A55F-2272-4B88-A35C-0100C2235D92}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Expand_Education</RootNamespace>
+    <AssemblyName>Expand Education</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="1gworksheet.aspx.cs">
+      <DependentUpon>1gworksheet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="1gworksheet.aspx.designer.cs">
+      <DependentUpon>1gworksheet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="2gquize.aspx.cs">
+      <DependentUpon>2gquize.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="2gquize.aspx.designer.cs">
+      <DependentUpon>2gquize.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="3gquize.aspx.cs">
+      <DependentUpon>3gquize.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="3gquize.aspx.designer.cs">
+      <DependentUpon>3gquize.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="3rdvideo.aspx.cs">
+      <DependentUpon>3rdvideo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="3rdvideo.aspx.designer.cs">
+      <DependentUpon>3rdvideo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="4gquize.aspx.cs">
+      <DependentUpon>4gquize.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="4gquize.aspx.designer.cs">
+      <DependentUpon>4gquize.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="4video.aspx.cs">
+      <DependentUpon>4video.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="4video.aspx.designer.cs">
+      <DependentUpon>4video.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="5gquize.aspx.cs">
+      <DependentUpon>5gquize.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="5gquize.aspx.designer.cs">
+      <DependentUpon>5gquize.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="5video.aspx.cs">
+      <DependentUpon>5video.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="5video.aspx.designer.cs">
+      <DependentUpon>5video.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="a.aspx.cs">
+      <DependentUpon>a.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="a.aspx.designer.cs">
+      <DependentUpon>a.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Addcourse.aspx.cs">
+      <DependentUpon>Addcourse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Addcourse.aspx.designer.cs">
+      <DependentUpon>Addcourse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="additionworksheet.aspx.cs">
+      <DependentUpon>additionworksheet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="additionworksheet.aspx.designer.cs">
+      <DependentUpon>additionworksheet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Adjectiveq1g.aspx.cs">
+      <DependentUpon>Adjectiveq1g.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adjectiveq1g.aspx.designer.cs">
+      <DependentUpon>Adjectiveq1g.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin.aspx.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin.aspx.designer.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="c.aspx.cs">
+      <DependentUpon>c.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="c.aspx.designer.cs">
+      <DependentUpon>c.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Captalizationq1g.aspx.cs">
+      <DependentUpon>Captalizationq1g.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captalizationq1g.aspx.designer.cs">
+      <DependentUpon>Captalizationq1g.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Compoundwordsq1g.aspx.cs">
+      <DependentUpon>Compoundwordsq1g.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Compoundwordsq1g.aspx.designer.cs">
+      <DependentUpon>Compoundwordsq1g.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contactus.aspx.cs">
+      <DependentUpon>Contactus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contactus.aspx.designer.cs">
+      <DependentUpon>Contactus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="course.aspx.cs">
+      <DependentUpon>course.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="course.aspx.designer.cs">
+      <DependentUpon>course.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="earthq1g.aspx.cs">
+      <DependentUpon>earthq1g.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="earthq1g.aspx.designer.cs">
+      <DependentUpon>earthq1g.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Expand Education.aspx.cs">
+      <DependentUpon>Expand Education.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Expand Education.aspx.designer.cs">
+      <DependentUpon>Expand Education.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="feedback.aspx.cs">
+      <DependentUpon>feedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="feedback.aspx.designer.cs">
+      <DependentUpon>feedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forgotpassforparents.aspx.cs">
+      <DependentUpon>Forgotpassforparents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forgotpassforparents.aspx.designer.cs">
+      <DependentUpon>Forgotpassforparents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forgotpassforteacher.aspx.cs">
+      <DependentUpon>Forgotpassforteacher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forgotpassforteacher.aspx.designer.cs">
+      <DependentUpon>Forgotpassforteacher.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="forgotpasswordAdmin.aspx.cs">
+      <DependentUpon>forgotpasswordAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="forgotpasswordAdmin.aspx.designer.cs">
+      <DependentUpon>forgotpasswordAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lan2ndgvideo.aspx.cs">
+      <DependentUpon>lan2ndgvideo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lan2ndgvideo.aspx.designer.cs">
+      <DependentUpon>lan2ndgvideo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lan3video.aspx.cs">
+      <DependentUpon>lan3video.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lan3video.aspx.designer.cs">
+      <DependentUpon>lan3video.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Languagevideo.aspx.cs">
+      <DependentUpon>Languagevideo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Languagevideo.aspx.designer.cs">
+      <DependentUpon>Languagevideo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginforAdmin.aspx.cs">
+      <DependentUpon>LoginforAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginforAdmin.aspx.designer.cs">
+      <DependentUpon>LoginforAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Loginforparents.aspx.cs">
+      <DependentUpon>Loginforparents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Loginforparents.aspx.designer.cs">
+      <DependentUpon>Loginforparents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Loginforteacher.aspx.cs">
+      <DependentUpon>Loginforteacher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Loginforteacher.aspx.designer.cs">
+      <DependentUpon>Loginforteacher.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="math.aspx.cs">
+      <DependentUpon>math.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="math.aspx.designer.cs">
+      <DependentUpon>math.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="math2ndgvideo.aspx.cs">
+      <DependentUpon>math2ndgvideo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="math2ndgvideo.aspx.designer.cs">
+      <DependentUpon>math2ndgvideo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="math3video.aspx.cs">
+      <DependentUpon>math3video.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="math3video.aspx.designer.cs">
+      <DependentUpon>math3video.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mathvideo.aspx.cs">
+      <DependentUpon>Mathvideo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mathvideo.aspx.designer.cs">
+      <DependentUpon>Mathvideo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="number.aspx.cs">
+      <DependentUpon>number.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="number.aspx.designer.cs">
+      <DependentUpon>number.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="parents.aspx.cs">
+      <DependentUpon>parents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="parents.aspx.designer.cs">
+      <DependentUpon>parents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="parentsalltable.aspx.cs">
+      <DependentUpon>parentsalltable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="parentsalltable.aspx.designer.cs">
+      <DependentUpon>parentsalltable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="quize1g.aspx.cs">
+      <DependentUpon>quize1g.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="quize1g.aspx.designer.cs">
+      <DependentUpon>quize1g.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="quize1ghome.aspx.cs">
+      <DependentUpon>quize1ghome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="quize1ghome.aspx.designer.cs">
+      <DependentUpon>quize1ghome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Schoolisignup.aspx.cs">
+      <DependentUpon>Schoolisignup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Schoolisignup.aspx.designer.cs">
+      <DependentUpon>Schoolisignup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sci2ndgvideo.aspx.cs">
+      <DependentUpon>sci2ndgvideo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sci2ndgvideo.aspx.designer.cs">
+      <DependentUpon>sci2ndgvideo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="science3video.aspx.cs">
+      <DependentUpon>science3video.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="science3video.aspx.designer.cs">
+      <DependentUpon>science3video.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sciencevideo.aspx.cs">
+      <DependentUpon>Sciencevideo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sciencevideo.aspx.designer.cs">
+      <DependentUpon>Sciencevideo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SecondGVideo.aspx.cs">
+      <DependentUpon>SecondGVideo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SecondGVideo.aspx.designer.cs">
+      <DependentUpon>SecondGVideo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SecurityqSignup.aspx.cs">
+      <DependentUpon>SecurityqSignup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SecurityqSignup.aspx.designer.cs">
+      <DependentUpon>SecurityqSignup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="shapequize1g.aspx.cs">
+      <DependentUpon>shapequize1g.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="shapequize1g.aspx.designer.cs">
+      <DependentUpon>shapequize1g.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="signupforparentsai.aspx.cs">
+      <DependentUpon>signupforparentsai.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="signupforparentsai.aspx.designer.cs">
+      <DependentUpon>signupforparentsai.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Signupforteacher.aspx.cs">
+      <DependentUpon>Signupforteacher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Signupforteacher.aspx.designer.cs">
+      <DependentUpon>Signupforteacher.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Signupforteacherinfo.aspx.cs">
+      <DependentUpon>Signupforteacherinfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Signupforteacherinfo.aspx.designer.cs">
+      <DependentUpon>Signupforteacherinfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sports.aspx.cs">
+      <DependentUpon>sports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sports.aspx.designer.cs">
+      <DependentUpon>sports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="subquize1g.aspx.cs">
+      <DependentUpon>subquize1g.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="subquize1g.aspx.designer.cs">
+      <DependentUpon>subquize1g.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="teachers.aspx.cs">
+      <DependentUpon>teachers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="teachers.aspx.designer.cs">
+      <DependentUpon>teachers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teacherssecurityque.aspx.cs">
+      <DependentUpon>Teacherssecurityque.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teacherssecurityque.aspx.designer.cs">
+      <DependentUpon>Teacherssecurityque.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="verbq1g.aspx.cs">
+      <DependentUpon>verbq1g.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="verbq1g.aspx.designer.cs">
+      <DependentUpon>verbq1g.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="video1.aspx.cs">
+      <DependentUpon>video1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="video1.aspx.designer.cs">
+      <DependentUpon>video1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Worksheetmath.aspx.cs">
+      <DependentUpon>Worksheetmath.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Worksheetmath.aspx.designer.cs">
+      <DependentUpon>Worksheetmath.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1gworksheet.aspx" />
+    <Content Include="2gquize.aspx" />
+    <Content Include="3gquize.aspx" />
+    <Content Include="3rdvideo.aspx" />
+    <Content Include="4gquize.aspx" />
+    <Content Include="4video.aspx" />
+    <Content Include="5gquize.aspx" />
+    <Content Include="5video.aspx" />
+    <Content Include="a.aspx" />
+    <Content Include="Addcourse.aspx" />
+    <Content Include="additionworksheet.aspx" />
+    <Content Include="Adjectiveq1g.aspx" />
+    <Content Include="c.aspx" />
+    <Content Include="Captalizationq1g.aspx" />
+    <Content Include="Compoundwordsq1g.aspx" />
+    <Content Include="Contactus.aspx" />
+    <Content Include="course.aspx" />
+    <Content Include="earthq1g.aspx" />
+    <Content Include="feedback.aspx" />
+    <Content Include="Forgotpassforparents.aspx" />
+    <Content Include="Forgotpassforteacher.aspx" />
+    <Content Include="forgotpasswordAdmin.aspx" />
+    <Content Include="images\1gholiday.png" />
+    <Content Include="images\1gworks.png" />
+    <Content Include="images\1st.png" />
+    <Content Include="images\2nd.png" />
+    <Content Include="images\3rd.png" />
+    <Content Include="images\4.png" />
+    <Content Include="images\5th.png" />
+    <Content Include="images\aboutus.jfif" />
+    <Content Include="images\addition.png" />
+    <Content Include="images\addition1.png" />
+    <Content Include="images\ansadd.png" />
+    <Content Include="images\ap.png" />
+    <Content Include="images\Bar Graphs and Tally Charts.mp4" />
+    <Content Include="images\boy.jfif" />
+    <Content Include="images\CAR.png" />
+    <Content Include="images\circle.png" />
+    <Content Include="images\clock.jfif" />
+    <Content Include="images\colormathgame.png" />
+    <Content Include="images\compoundwords.mp4" />
+    <Content Include="images\Conjunctions.mp4" />
+    <Content Include="images\contact.jpg" />
+    <Content Include="images\contactus.jpg" />
+    <Content Include="images\cube.png" />
+    <Content Include="images\decimal.jfif" />
+    <Content Include="images\devi.jpg" />
+    <Content Include="images\doll.png" />
+    <Content Include="images\Facts about Crocodiles _ Facts about Crocodiles for kids _ Crocodile Facts for Kids _Crocodile Facts.mp4" />
+    <Content Include="images\fraction.png" />
+    <Content Include="images\g.jfif" />
+    <Content Include="images\girl.jfif" />
+    <Content Include="images\girl.png" />
+    <Content Include="images\grass.jfif" />
+    <Content Include="images\Homophones In English Grammer _ Basic Homophones list for class 1 Kids.mp4" />
+    <Content Include="images\john.jpg" />
+    <Content Include="images\k.p.png" />
+    <Content Include="images\k4.png" />
+    <Content Include="images\Let%27s Learn Fractions! _ Understanding Math for Children _ Kids Learning Videos.mp4" />
+    <Content Include="images\lp.jfif" />
+    <Content Include="images\mango.png" />
+    <Content Include="images\Measuring Length _ Mathematics Grade 1 _ Periwinkle.mp4" />
+    <Content Include="images\Measuring Matter - General Science for Kids!.mp4" />
+    <Content Include="images\mike.jpg" />
+    <Content Include="images\multiplication.jfif" />
+    <None Include="images\addition-and-subtraction-fact-families.pdf" />
+    <None Include="images\addition.pdf" />
+    <None Include="images\division.pdf" />
+    <Content Include="images\ilovepdf_pages-to-jpg %281%29.zip" />
+    <Content Include="images\ilovepdf_pages-to-jpg %282%29.zip" />
+    <Content Include="images\ilovepdf_pages-to-jpg %283%29.zip" />
+    <Content Include="images\ilovepdf_pages-to-jpg.zip" />
+    <None Include="images\Lizards - Reptiles _ Science for Kids.mp4.crdownload" />
+    <None Include="images\noun" />
+    <Content Include="images\numbers.jfif" />
+    <None Include="images\Preposition" />
+    <Content Include="images\open rectangle.png" />
+    <Content Include="images\probability.jfif" />
+    <None Include="images\Secondgradevideo\synon" />
+    <None Include="images\Secondgradevideo\adjective" />
+    <Content Include="images\Secondgradevideo\Common Nouns for Kids.mp4" />
+    <None Include="images\Secondgradevideo\dictionary" />
+    <None Include="images\Secondgradevideo\verbs to be" />
+    <None Include="images\Secondgradevideo\edge" />
+    <None Include="images\Secondgradevideo\nature" />
+    <None Include="images\Secondgradevideo\number" />
+    <Content Include="images\Secondgradevideo\Perimeter and area_ the basics _ Perimeter, area, and volume _ Geometry _ Khan Academy.mp4" />
+    <None Include="images\Secondgradevideo\singular plu" />
+    <Content Include="images\Secondgradevideo\quize\clockadd.png" />
+    <Content Include="images\Secondgradevideo\quize\cupadd.png" />
+    <Content Include="images\Secondgradevideo\quize\glassadd.png" />
+    <Content Include="images\Secondgradevideo\yt1s.com - Proper Nouns and Capitalization.mp4" />
+    <Content Include="images\shapes.jfif" />
+    <Content Include="images\Snakes - The Dr. Binocs Show _ Best Learning Videos For Kids _ Peekaboo Kidz.mp4" />
+    <Content Include="images\sports.png" />
+    <Content Include="images\States of Matter _ #aumsum #kids #science #education #children.mp4" />
+    <Content Include="images\sub.jpg" />
+    <None Include="images\Secondgradevideo\yt1s.com - Everything About EARTH  Best Facts About Earth  Dr Binocs Show  Peekaboo Kidz.mp4.crdownload" />
+    <None Include="images\short vowel" />
+    <None Include="images\subtraction.pdf" />
+    <None Include="images\Taking Care of Earth _ Caring for the Environment _ Made by Red Cat Reading.mp4.crdownload" />
+    <None Include="images\verbs" />
+    <None Include="images\long vowel" />
+    <Content Include="images\team1.jpg" />
+    <Content Include="images\triangle.png" />
+    <Content Include="images\What are clouds_ ☁☁ How are they formed_ _ Educational Vídeo for Kids.mp4" />
+    <Content Include="lan2ndgvideo.aspx" />
+    <Content Include="lan3video.aspx" />
+    <Content Include="Languagevideo.aspx" />
+    <Content Include="LoginforAdmin.aspx" />
+    <Content Include="Loginforparents.aspx" />
+    <Content Include="Loginforteacher.aspx" />
+    <Content Include="math.aspx" />
+    <Content Include="math2ndgvideo.aspx" />
+    <Content Include="math3video.aspx" />
+    <Content Include="Mathvideo.aspx" />
+    <Content Include="number.aspx" />
+    <Content Include="parentsalltable.aspx" />
+    <Content Include="quize1g.aspx" />
+    <Content Include="quize1ghome.aspx" />
+    <Content Include="Schoolisignup.aspx" />
+    <Content Include="sci2ndgvideo.aspx" />
+    <Content Include="science3video.aspx" />
+    <Content Include="Sciencevideo.aspx" />
+    <Content Include="SecondGVideo.aspx" />
+    <Content Include="SecurityqSignup.aspx" />
+    <Content Include="shapequize1g.aspx" />
+    <Content Include="signupforparentsai.aspx" />
+    <Content Include="Signupforteacher.aspx" />
+    <Content Include="Signupforteacherinfo.aspx" />
+    <Content Include="sports.aspx" />
+    <Content Include="subquize1g.aspx" />
+    <Content Include="Teacherssecurityque.aspx" />
+    <Content Include="verbq1g.aspx" />
+    <Content Include="video1.aspx" />
+    <Content Include="web.config" />
+    <Content Include="Worksheetmath.aspx" />
+    <Content Include="XMLFile1.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin.aspx" />
+    <Content Include="Expand Education.aspx" />
+    <Content Include="parents.aspx" />
+    <Content Include="teachers.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\bubble.avif" />
+    <None Include="images\k4.png.docx" />
+    <None Include="images\mul" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49782</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
