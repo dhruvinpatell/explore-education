@@ -23,22 +23,26 @@ namespace Expand_Education
         {
             try
             {
-
+                string username = TextBox1.Text.Trim();
+                string password = TextBox2.Text.Trim();
+                string userClass = DropDownClass.SelectedValue;
                 OleDbConnection con = new OleDbConnection();
                 con.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Lenovo\Documents\Parents_Account_Information.accdb";
                 con.Open();
-                OleDbCommand cmd = new OleDbCommand("Select *from Parents_Account_Information where Username='" + TextBox1.Text + "'and Password='" + TextBox2.Text + "'", con);
-                OleDbCommand cmd1 = new OleDbCommand("Select *from Parents_Account_Information where Username='" + TextBox1.Text + "'and Password='" + TextBox2.Text + "'", con);
-
+                // Use parameterized query for security
+                OleDbCommand cmd = new OleDbCommand("SELECT * FROM Parents_Account_Information WHERE Username = ? AND Password = ? AND Class = ?", con);
+                cmd.Parameters.AddWithValue("@Username", username);
+                cmd.Parameters.AddWithValue("@Password", password);
+                cmd.Parameters.AddWithValue("@Class", userClass);
                 OleDbDataReader dr = cmd.ExecuteReader();
-                if (dr.Read() == true)
+                if (dr.Read())
                 {
-
-                    Response.Redirect("parents.aspx");
+                    // Only allow access to the user's own class page
+                    Response.Redirect($"parents_class{userClass}.aspx");
                 }
                 else
                 {
-                    Response.Write("Username & Password Invalid");
+                    Response.Write("Invalid Username, Password, or Class");
                 }
             }
             catch (Exception ex)
