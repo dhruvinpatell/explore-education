@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>images\boy.jfif</ImageUrl>
+    <NavigateUrl>facebook.com</NavigateUrl>
+    <AlternateText>learn</AlternateText>
+  </Ad>
+  
+  <Ad>
+    <ImageURL>images\girl.jfif</ImageURL>
+    <NavigateUrl>facebook.com</NavigateUrl>
+    <AlternateText>learn</AlternateText>
+  </Ad>
+  
+  <Ad>
+    <ImageURL>images\lp.jfif</ImageURL>
+    <NavigateUrl>facebook.com</NavigateUrl>
+    <AlternateText>learn</AlternateText>
+  </Ad>
+</Advertisements>
